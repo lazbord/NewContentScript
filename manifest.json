@@ -1,0 +1,14 @@
+{
+  "name": "Inject MV3",
+  "version": "0.01",
+  "description": "-",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "manifest_version": 3
+}
